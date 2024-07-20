@@ -1,0 +1,49 @@
+algoritmo "Soma"
+var
+  N1, N2, S: Inteiro
+inicio
+  Escreva("Informe um numero: ")
+  Leia(N1)
+  Escreva("Informe outro numero: ")
+  Leia(N2)
+  S <- N1 + N2
+  Escreva("A soma de ", N1 ,"com ", N2 ,"e igual a ", S)
+fimalgoritmo
+__________________________________________________________
+algoritmo "Media"
+var
+  N1, N2: Inteiro
+  M: Real
+inicio
+  Escreva("Informe um numero: ")
+  Leia(N1)
+  Escreva("Informe outro numero: ")
+  Leia(N2)
+  M <- (N1 + N2) / 2
+  Escreva("A media entre os valores e de ", M) 
+fimalgoritmo
+_________________________________________________________
+algoritmo "Operadores"
+var
+  A: Inteiro
+  B, C, D: Real
+inicio
+  A <- Abs(-50)
+  Escreval(A)
+  B <- Exp(9, 5)
+  Escreval(B)
+  C <- RaizQ(100)
+  Escreval(C)
+  D <- GraupRad(90)
+  Escreval(D)
+fimalgoritmo
+________________________________________________________
+algoritmo "Conversor"
+var
+  Angulo, S: Real
+inicio
+  Escreva("Informe um angulo")
+  Leia(angulo)
+  S <- Sen(GraupRad(Angulo))
+  Escreva("O seno de ", Angulo, "e igual a ", S)
+fimalgoritmo
