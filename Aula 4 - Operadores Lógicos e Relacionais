@@ -15,3 +15,4 @@ inicio
   Escreval("Pode formar um triangulo? ", TRI)
   Escreval("O triangulo e equilatero? ", EQ)
   Escreval("O triangulo e escaleno? ", ES)
+fimalgoritmo
