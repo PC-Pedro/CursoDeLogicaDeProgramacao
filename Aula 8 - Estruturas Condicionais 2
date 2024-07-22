@@ -1,0 +1,26 @@
+algaritmo "MediaAluno"
+var
+  nota1, nota2, media: Real
+inicio
+  Escreva("Primeira nota: ")
+  Leia(nota1)
+  Escreva("Segunda nota: ")
+  Leia(nota2)
+  media <- (nota1 + nota2) / 2
+  Se (media <= 10) e (media >= 9) entao
+      Escreva("Sua nota e A")
+  senao
+    Se (media <= 8.9) e (media >= 8) entao
+        Escreva("Sua nota e B")
+  senao
+    Se (media <= 7.9) e (media >= 7) entao
+        Escreva("Sua nota e C")
+  senao
+    Se (media <= 6.9) e (media >= 6) entao
+        Escreva("Sua nota e D")
+  senao
+    Se (media <= 5.9) e (media >= 5) entao
+        Escreva("Sua nota e E")
+  senao
+    Escreva("Sua nota e F")
+fimalgoritmo
