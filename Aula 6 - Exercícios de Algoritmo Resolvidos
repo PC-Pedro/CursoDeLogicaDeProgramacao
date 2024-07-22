@@ -1,0 +1,41 @@
+algoritmo "Creuza 01"
+var
+ano_atual, ano_nasc, idade: Inteiro
+inicio
+  Escreva("Em que ano estamos? ")
+  Leia(ano_atual)
+  Escreva("Em que ano eu nasci? ")
+  Leia(ano_nasc)
+  idade <- ano_atual - ano_nasc
+  Escreva("Atualmente estou com ", idade)
+fimalgoritmo
+_______________________________________________
+algoritmo "Creuza 02"
+var
+  reais, dolares: Real
+inicio
+  Escreva("Quantos reais eu tenho? R$" )
+  Leia(reais)
+  dolares <- reais / 5.57
+  Escreva("Posso ter US$", dolares)
+fimalgoritmo
+________________________________________________
+algoritmo "Creuza 03"
+var
+  F, C: Real
+inicio
+  Escreva("Qual e a temperatura aqui? ")
+  Leia(F)
+  C <- (F - 32) / 1.8
+  Escreva("A temperatura em graus e de ", C, " graus")
+fimalgoritmo
+________________________________________________
+algoritmo "Creuza 04"
+var
+  preco, imposto: Real
+inicio
+  Escreva("Qual o preco do produto? ")
+  Leia(preco)
+  imposto <- (preco * 60) / 100
+  Escreva("O imposto sera de US$", imposto:5:2)
+fimalgoritmo
